@@ -1,0 +1,84 @@
+.iphone5{
+	position: relative;
+}
+
+.iphone5-icon{
+	background-image: url(../../img/iphone5.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: auto;
+	height: 600px;
+}
+
+.status-bar{
+	display: block;
+	background-image: url(../../img/convert.jpg);
+	background-repeat: no-repeat;
+	background-position: 30px 0;
+	background-size: 216px;
+	width: 350px;
+	height: 13px;
+	position: absolute;
+	top: 17.5%;
+	left: 3.5%;
+}
+
+.units{
+	position: absolute;
+	top: 21%;
+	left: 7%;
+}
+
+.units button[data-toggle="dropdown"],.dropdown-menu{
+	width: 195px;
+}
+
+.unit-calc{
+	width: 19.4%;
+	position: absolute;
+	top: 28%;
+	left: 5.6%;
+}
+
+.unit-calc .panel-body{
+	padding: 9px;
+}
+
+.input,.output{
+	border: 1px solid silver;
+	padding: 2.5px;
+	margin: 0;
+	border-radius: 2px;
+}
+
+.equals{
+	display: block;
+	text-align: center;
+}
+
+.dropdowns{
+	position: absolute;
+	top: 45%;
+	left: 7%;
+}
+
+.dropdown-one button,.dropdown-two button{
+	width: 96px;
+}
+
+.keyboard{
+	width: 218px;
+	position: absolute;
+	top: 54%;
+	left: 6.2%;
+}
+
+.keyboard-group button{
+	padding: 8px 30px;
+	border-radius: 0;
+}
+
+.btn-point,.btn-x{
+	width: 72px;
+}
+
